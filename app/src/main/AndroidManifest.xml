@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.igdtuwresources">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IGDTUWResources"
+        tools:targetApi="31">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.IGDTUWResources">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Navigation -->
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SemesterSelectionActivity" />
+        <activity android:name=".BranchDetailActivity" />
+
+        <!-- Subject Screen Activities (CSE, CSE AI, etc.) -->
+        <activity android:name=".CSE1stSemSubjectsActivity" />
+        <activity android:name=".CSE2ndSemSubjectsActivity" />
+        <activity android:name=".CSE3rdSemSubjectsActivity" />
+        <activity android:name=".CSE4thSemSubjectsActivity" />
+        <activity android:name=".CSE5thSemSubjectsActivity" />
+        <activity android:name=".CSE6thSemSubjectsActivity" />
+        <activity android:name=".CSE7thSemSubjectsActivity" />
+        <activity android:name=".CSE8thSemSubjectsActivity" />
+
+        <activity android:name=".CSEAI1stSemSubjectsActivity" />
+        <activity android:name=".CSEAI2ndSemSubjectsActivity" />
+        <activity android:name=".CSEAI3rdSemSubjectsActivity" />
+        <activity android:name=".CSEAI4thSemSubjectsActivity" />
+        <activity android:name=".CSEAI5thSemSubjectsActivity" />
+        <activity android:name=".CSEAI6thSemSubjectsActivity" />
+        <activity android:name=".CSEAI7thSemSubjectsActivity" />
+        <activity android:name=".CSEAI8thSemSubjectsActivity" />
+
+        <activity android:name=".ECEAI1stSemSubjectsActivity" />
+        <activity android:name=".ECEAI2ndSemSubjectsActivity" />
+        <activity android:name=".ECEAI3rdSemSubjectsActivity" />
+        <activity android:name=".ECEAI4thSemSubjectsActivity" />
+        <activity android:name=".ECEAI5thSemSubjectsActivity" />
+        <activity android:name=".ECEAI6thSemSubjectsActivity" />
+        <activity android:name=".ECEAI7thSemSubjectsActivity" />
+        <activity android:name=".ECEAI8thSemSubjectsActivity" />
+
+        <activity android:name=".ECE1stSemSubjectsActivity" />
+        <activity android:name=".ECE2ndSemSubjectsActivity" />
+        <activity android:name=".ECE3rdSemSubjectsActivity" />
+        <activity android:name=".ECE4thSemSubjectsActivity" />
+        <activity android:name=".ECE5thSemSubjectsActivity" />
+        <activity android:name=".ECE6thSemSubjectsActivity" />
+        <activity android:name=".ECE7thSemSubjectsActivity" />
+        <activity android:name=".ECE8thSemSubjectsActivity" />
+
+        <activity android:name=".IT1stSemSubjectsActivity" />
+        <activity android:name=".IT2ndSemSubjectsActivity" />
+        <activity android:name=".IT3rdSemSubjectsActivity" />
+        <activity android:name=".IT4thSemSubjectsActivity" />
+        <activity android:name=".IT5thSemSubjectsActivity" />
+        <activity android:name=".IT6thSemSubjectsActivity" />
+        <activity android:name=".IT7thSemSubjectsActivity" />
+        <activity android:name=".IT8thSemSubjectsActivity" />
+
+        <activity android:name=".AIML1stSemSubjectsActivity" />
+        <activity android:name=".AIML2ndSemSubjectsActivity" />
+        <activity android:name=".AIML3rdSemSubjectsActivity" />
+        <activity android:name=".AIML4thSemSubjectsActivity" />
+        <activity android:name=".AIML5thSemSubjectsActivity" />
+        <activity android:name=".AIML6thSemSubjectsActivity" />
+        <activity android:name=".AIML7thSemSubjectsActivity" />
+        <activity android:name=".AIML8thSemSubjectsActivity" />
+
+        <activity android:name=".MAE1stSemSubjectsActivity" />
+        <activity android:name=".MAE2ndSemSubjectsActivity" />
+        <activity android:name=".MAE3rdSemSubjectsActivity" />
+        <activity android:name=".MAE4thSemSubjectsActivity" />
+        <activity android:name=".MAE5thSemSubjectsActivity" />
+        <activity android:name=".MAE6thSemSubjectsActivity" />
+        <activity android:name=".MAE7thSemSubjectsActivity" />
+        <activity android:name=".MAE8thSemSubjectsActivity" />
+
+        <!-- ✅ Add this new line for the Unit Page Activity -->
+        <activity android:name=".SubjectUnitsActivity" />
+
+    </application>
+</manifest>

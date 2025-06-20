@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!-- Top Header Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b2d8d8"
+        android:padding="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleBranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Branch"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Branch Buttons -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCSEAI"
+                style="@style/BranchButton"
+                android:text="CSE AI" />
+
+            <Button
+                android:id="@+id/btnCSE"
+                style="@style/BranchButton"
+                android:text="CSE" />
+
+            <Button
+                android:id="@+id/btnECEAI"
+                style="@style/BranchButton"
+                android:text="ECE AI" />
+
+            <Button
+                android:id="@+id/btnECE"
+                style="@style/BranchButton"
+                android:text="ECE" />
+
+            <Button
+                android:id="@+id/btnIT"
+                style="@style/BranchButton"
+                android:text="IT" />
+
+            <Button
+                android:id="@+id/btnAIML"
+                style="@style/BranchButton"
+                android:text="AIML" />
+
+            <Button
+                android:id="@+id/btnMAE"
+                style="@style/BranchButton"
+                android:text="MAE" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

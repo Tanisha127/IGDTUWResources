@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Top Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008080"
+        android:padding="27dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Back Arrow -->
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="Back"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/semesterHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Your Semester"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Grid of Semesters -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="24dp"
+        android:alignmentMode="alignMargins"
+        android:rowOrderPreserved="false">
+
+        <Button
+            android:id="@+id/sem1Button"
+            style="@style/SemesterButton"
+            android:text="1st\nSemester" />
+
+        <Button
+            android:id="@+id/sem2Button"
+            style="@style/SemesterButton"
+            android:text="2nd\nSemester" />
+
+        <Button
+            android:id="@+id/sem3Button"
+            style="@style/SemesterButton"
+            android:text="3rd\nSemester" />
+
+        <Button
+            android:id="@+id/sem4Button"
+            style="@style/SemesterButton"
+            android:text="4th\nSemester" />
+
+        <Button
+            android:id="@+id/sem5Button"
+            style="@style/SemesterButton"
+            android:text="5th\nSemester" />
+
+        <Button
+            android:id="@+id/sem6Button"
+            style="@style/SemesterButton"
+            android:text="6th\nSemester" />
+
+        <Button
+            android:id="@+id/sem7Button"
+            style="@style/SemesterButton"
+            android:text="7th\nSemester" />
+
+        <Button
+            android:id="@+id/sem8Button"
+            style="@style/SemesterButton"
+            android:text="8th\nSemester" />
+
+    </GridLayout>
+</LinearLayout>
