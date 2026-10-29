@@ -34,7 +34,8 @@ class CSEAI2ndSemSubjectsActivity : AppCompatActivity() {
             "Intro to DS",
             "Applied Maths",
             "Applied Physics",
-            "WAD"
+            "WAD",
+            "Soft Skills and Personality"
         )
 
         // Set up ListView adapter with custom styling
