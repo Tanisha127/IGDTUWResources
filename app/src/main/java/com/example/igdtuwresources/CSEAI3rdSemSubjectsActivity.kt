@@ -31,11 +31,12 @@ class CSEAI3rdSemSubjectsActivity : AppCompatActivity() {
         // Subject list
         val subjects = listOf(
             "Discrete Structure",
-            "Data Structure",
+            "Object Oriented Programming",
             "AI",
-            "Software Engineering",
-            "MSE",
-            "Numerical Methods"
+            "DataBase Managment Systems",
+            "Operation Management",
+            "Ergonomic Design",
+            "Computer Organization and Architecture"
         )
 
         // Set up ListView adapter with custom styling
